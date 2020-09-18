@@ -1,8 +1,8 @@
-package com.programming.techie.springredditclone.repository;
+package com.example.springredditclone.repository;
 
-import com.programming.techie.springredditclone.model.Post;
-import com.programming.techie.springredditclone.model.Subreddit;
-import com.programming.techie.springredditclone.model.User;
+import com.example.springredditclone.model.Post;
+import com.example.springredditclone.model.Subreddit;
+import com.example.springredditclone.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

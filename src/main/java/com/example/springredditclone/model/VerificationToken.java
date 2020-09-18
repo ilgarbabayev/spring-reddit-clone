@@ -1,4 +1,4 @@
-package com.programming.techie.springredditclone.model;
+package com.example.springredditclone.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,6 @@ import java.time.Instant;
 
 import static javax.persistence.FetchType.LAZY;
 import static javax.persistence.GenerationType.IDENTITY;
-import static javax.persistence.GenerationType.SEQUENCE;
 
 @Data
 @AllArgsConstructor
