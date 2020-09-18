@@ -1,6 +1,6 @@
 package com.example.springredditclone.service;
 
-import com.example.springredditclone.exception.SpringRedditException;
+import com.example.springredditclone.exceptions.SpringRedditException;
 import com.example.springredditclone.model.NotificationEmail;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
