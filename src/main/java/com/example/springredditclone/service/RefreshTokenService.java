@@ -18,7 +18,10 @@ public class RefreshTokenService {
         RefreshToken refreshToken = new RefreshToken();
         refreshToken.setToken(UUID.randomUUID().toString());
         refreshToken.setCreatedDate(Instant.now());
-        return refreshTokenRepository.save(refreshToken);
+        RefreshToken tok = refreshTokenRepository.save(refreshToken);
+        System.out.println("ref token: " + tok.getToken());
+        return tok;
+//        return refreshTokenRepository.save(refreshToken);
     }
     void validateRefreshToken(String token) {
         refreshTokenRepository.findByToken(token)
